@@ -11,9 +11,7 @@ class User extends Authenticatable
     use Notifiable;
 
     /**
-     * The attributes that are not mass assignable.
-     *
-     * @var array
+     * The attributes that are not m
      */
     protected $guarded = [
         'rememberToken'
