@@ -7,6 +7,9 @@ use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 use function foo\func;
 
+/**
+ * @method static select(string $string)
+ */
 class Product extends Model implements HasMedia
 {
     use HasMediaTrait;
