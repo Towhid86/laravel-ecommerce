@@ -4,6 +4,8 @@
 Laravel Ecommerce is na open source  ecommerce platform management system
 
 ## Packages used
+-Install media library 
+-install mode_modules(yarn install)
 
 
 ## Installation Instruction
