@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Category;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 
@@ -26,6 +27,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $categories = Category:: select(['name', 'slug'])->where('category_id', null)->get() ;
+        view()->share('categories',$categories);
+
         Schema::defaultStringLength(191);
     }
 }
