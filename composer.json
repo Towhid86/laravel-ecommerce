@@ -9,11 +9,12 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
+        "fideloper/proxy": "^4.4",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "9.*",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "spatie/laravel-medialibrary": "^10.0.0",
+        "spatie/laravel-medialibrary": "^10.0",
         "ybr-nx/laravel-mariadb": "^1.0"
     },
     "require-dev": {
